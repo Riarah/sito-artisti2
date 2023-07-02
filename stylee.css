@@ -1,0 +1,78 @@
+body{
+    background-color: #80ADBC;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+@font-face {
+    font-family: 'arya-regular' ;
+    src: url('arya/arya-regular.eot');
+    src: local('arya-regular'), url('arya/arya-regular.ttf') format('truetype');
+}
+header nav div{
+    font: 20px'arya-regular';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+header nav div a{
+    color: white;
+    text-decoration-line: none;
+}
+#hero{
+    max-width: 100%;
+    height: auto;
+}
+section div h1{
+    font: 32px'arya-regular';
+    color: white;
+}
+.testo{
+    color: white;
+    font: 20px'arya-regular';
+    width: 60%;
+}
+.testo2{
+    color: white;
+    font: 20px'arya-regular';
+    width: 60%;
+}
+.immagini img{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+.sezione{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.sezione2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+footer{
+    background-color: #93BF95;
+    display: flex;
+    justify-content: space-between;
+}
+footer h2{
+    color: white;
+    font: 24px'arya-regular';
+}
+footer p{
+    color: white;
+    font: 16px'arya-regular';
+    width: 100%;
+}
+.due{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15%;
+}

@@ -1,0 +1,78 @@
+body{background-color: #6B98A7;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+@font-face {
+    font-family: 'arya-regular' ;
+    src: url('arya/arya-regular.eot');
+    src: local('arya-regular'), url('arya/arya-regular.ttf') format('truetype');
+}
+header nav div{
+    font: 32px'arya-regular';
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+header nav div a{
+    color: #000;
+    text-decoration-line: none;
+}
+header nav h1{
+    background-color: #93BF95;
+    font: 96px'arya-regular';
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+#hero{
+    max-width: 100%;
+    height: auto;
+}
+section h2{
+    color: white;
+    font: 32px'arya-regular';
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+section img{
+    max-width: 210px;
+    height: 210px;
+}
+.tre{
+    display: flex;
+    justify-content: space-around;
+}
+.tre div a{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.link {
+    color: white;
+    font: 32px'arya-regular';
+    text-decoration: none;
+}
+footer{
+    background-color: #93BF95;
+    display: flex;
+    justify-content: space-between;
+}
+footer h2{
+    color: white;
+    font: 24px'arya-regular';
+}
+footer p{
+    color: white;
+    font: 16px'arya-regular';
+    width: 100%;
+}
+.due{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15%;
+}

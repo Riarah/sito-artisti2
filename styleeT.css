@@ -1,0 +1,74 @@
+body{
+    background-color: #426B78;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+
+}
+@font-face {
+    font-family: 'arya-regular' ;
+    src: url('arya/arya-regular.eot');
+    src: local('arya-regular'), url('arya/arya-regular.ttf') format('truetype');
+}    
+header nav div{
+    font: 20px'arya-regular';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+header nav div a{
+    color: white;
+    text-decoration-line: none;
+}
+header nav h1{
+    background-color: #93BF95;
+    font: 64px'arya-regular';
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+#prima{
+    width: 80%;
+    padding: 11%;
+}
+.testo{
+    color: white;
+    font: 20px'arya-regular';
+    width: 70%;
+}
+.immagini img{
+    max-width: 233px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+.sezione{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+footer{
+    background-color: #93BF95;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+footer h2{
+    color: white;
+    font: 24px'arya-regular';
+}
+footer p{
+    color: white;
+    font: 16px'arya-regular';
+    width: 100%;
+}
+.due{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15%;
+}
